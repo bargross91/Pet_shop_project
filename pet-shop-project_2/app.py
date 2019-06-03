@@ -26,7 +26,6 @@ def pet(pet_id):
 
 @app.route("/cart/")
 def cart():
-	# cart = sort_cart()
 	cart = get_cart() 
 	total = get_cart_total(cart)
 	return render_template('cart.html', cart=cart, total=total)
@@ -48,42 +47,5 @@ def empty_cart():
 	} 
 	save_cart(cart)
 	return redirect(url_for('index'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# @app.route("/cart/empty")
-# def empty_cart():
-	# cart = get_cart()
-	# cart.clear()
-
-
-
-
-
-
-
-
-
-
-
-
-# a function in a variable can store the outcome of the function but NOT the whole function 
 
 

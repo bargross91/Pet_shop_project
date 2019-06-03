@@ -1,0 +1,44 @@
+[
+  {
+    "pet_id": 1,
+    "pet_name": "Dali",
+    "pet_price": 900,
+    "pet_info": "Dali is a 2 year old child friendly dog, who loves to cuddle.",
+    "pet_picture": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13002253/GettyImages-521536928-_1_.jpg"
+   },
+    {
+    "pet_id": 2,
+    "pet_name": "Bob",
+    "pet_price": 150,
+    "pet_info": "Bob is a 5 year old dog, who loves to play with other dogs and is cat friendly.",
+    "pet_picture": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/12/boxer-dog.jpg"  
+  },
+    {
+    "pet_id": 3,
+    "pet_name": "Rita",
+    "pet_price": 200,
+    "pet_info": "Rita is a 5 year old cat that loves to make new friends.",
+    "pet_picture": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-cat-breed-1553197454.jpg"  
+  },
+    {
+    "pet_id": 4,
+    "pet_name": "King",
+    "pet_price": 400,
+    "pet_info": "King is a fish that loves to swimm circles.",
+    "pet_picture": "https://s7d1.scene7.com/is/image/PETCO/1032070-left-1?$ProductDetail-large$"  
+  },
+    {
+    "pet_id": 5,
+    "pet_name": "Sally",
+    "pet_price": 300,
+    "pet_info": "Sally is 10 year old dog, who loves the beach.",
+    "pet_picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/17/11/pitbull-terrier.jpg?w968h681"   
+  },
+  {
+    "pet_id": 6,
+    "pet_name": "Rocky",
+    "pet_price": 500,
+    "pet_info": "Sally is 3 year old dog. She is a perfect home dog and enjoys long walks.",
+    "pet_picture": "https://www.omlet.de/images/cache/1024/567/Dog-Great_Dane-A_beautiful_charcoal_grey_Great_Dane_with_a_neat,_short_coat.jpg"   
+  }
+]

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Your Cart{% endblock %}
+{% block content %}
+<h1>Your Cart</h1>
+<div class="row">
+         {% for pet in cart %}
+    <ul class="list-group cart">
+      <li class="list-group-item cart-item">
+        <div class="pet-details">
+          <div style="overflow: hidden; height: 2rem;">
+          <img src="{{ pet.pet_picture }}">
+        </div>
+          <div class="pet_name">{{ pet.pet_name }}</div>
+        </div>
+        <div>
+          <div class="pet_price">{{ pet.pet_price }}</div>
+        </div>
+      </li>
+    </ul>
+{% endfor %}
+</div>
+<div class="row cart-total-row">
+  <div>Total: </div><div class="cart-total">{{ total }}</div>
+</div>
+<div class="row cart-total-row buttons-row">
+  <a class="btn btn-secondary empty-button" href="{{ url_for('empty_cart')}}">Empty</a>
+</div>
+{% endblock %}

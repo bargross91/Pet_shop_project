@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Your Cart{% endblock %}
+{% block content %}
+<h1>Welcome to Our Pet Shop!</h1>
+<div class="row pb-5">
+    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="https://img.grouponcdn.com/deal/w34sQwKLqQtDnT3NedxvTR/167580039-700x420/v1/c700x420.jpg" class="card-img-top">
+        </div>
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Our Pets</h5>
+          <a href="{{ url_for ('pets') }}" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="https://ae5d5852282d11087a7b-db794fb93bbb512aa835a3b666a4a0ff.ssl.cf1.rackcdn.com/dog-in-shopping-cart-with-toys.jpg" class="card-img-top">
+        </div>
+
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Your Cart</h5>
+          <a href="{{ url_for('cart') }}" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
